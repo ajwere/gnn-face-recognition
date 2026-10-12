@@ -1,4 +1,4 @@
-#Face Recognition Using Graph Neural Networks
+# Face Recognition Using Graph Neural Networks
 
 A computer vision project exploring facial recognition using Graph Neural Networks (GNNs) and MediaPipe Face Mesh. Rather than learning directly from raw image pixels, the system extracts 3D facial landmarks and represents facial structure as a graph for binary classification.
 
@@ -71,7 +71,7 @@ This illustrates how graph-based facial representations can be applied beyond of
 
 Repository Structure
 
-```text
+```text 
 gnn-face-recognition/
 ├── dataset.py
 ├── face_features.py
@@ -101,22 +101,22 @@ Technologies Used
 Getting Started
 
 1. Clone the repository
-
+``` 
 git clone <your-repository-url>
 cd gnn-face-recognition
-
+```
 2. Create a virtual environment
-
+```
 python -m venv .venv
-
+```
 Activate it on macOS or Linux:
-
+```
 source .venv/bin/activate
-
+```
 3. Install dependencies
-
+```
 pip install -r requirements.txt
-
+```
 PyTorch and PyTorch Geometric installation requirements can vary depending on your operating system and hardware. Consult their official installation instructions if you encounter compatibility issues.
 
 4. Prepare the data
