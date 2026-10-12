@@ -59,6 +59,7 @@ Create a folder named face_features in your project directory. Move both the not
 
 Your directory structure should look like this:
 
+``` text
 project/
 ├── face_feature.py
 ├── face_features/
@@ -67,7 +68,7 @@ project/
 │   └── my_faceCropped/
 │       └── ... (your extracted facial features)
 └── F211828_coursework_jupyter.ipynb
-
+```
 Important: Ensure that both folders are inside face_features before running the notebook.
 
 4. Run the Project
