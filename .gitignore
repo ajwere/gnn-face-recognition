@@ -6,6 +6,24 @@ __pycache__/
 # C extensions
 *.so
 
+# Extracted face features and datasets
+face_features/
+data/
+dataset/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Training outputs
+runs/
+logs/
+
 # Distribution / packaging
 .Python
 build/
